@@ -1,0 +1,69 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+	<meta charset="utf-8" />
+    <meta name="viewport" content="width=700" />
+    <link rel="stylesheet" type="text/css" href="CSS/UVUStyle.css">
+</head>
+<body>
+    <!--The header contains the logo and navigation menu-->
+    <!--Important note:: The header and the body of the page will rest inside of another myuvu navigation page. In theory.-->
+    <!--Omiting any standard UVU navigation as a result of the above comment-->
+    <div class="header">
+       <a href="http://www.uvu.edu"><img src="Images/uvusquare.png" class="logo" /></a> 
+        <h2>Accessibilities Department</h2>
+    </div>
+    <!--Sticking with standard UVU layout the rest of the content will be nested in one section below the header-->
+    <div class="form">
+        <form>
+        <h3>All fields are required</h3>
+        <p class="subhead"><span class="star">*</span>First Name: </p>
+        <input id="FName" type="text" maxlength="30" autocomplete="off" placeholder="EX: John" required/>
+        <!--Input type text: max character of 30-->
+        <p class="subhead"><span class="star">*</span>Last Name: </p>
+        <input id="LName" type="text" maxlength="30" autocomplete="off" placeholder="EX: Doe" required/>
+        <!--Input type text: max character of 30-->
+        <p class="subhead"><span class="star">*</span>Semester: </p>
+        <!--List box: Fixed options-->
+        <select id="Semester">
+            <option value="Spring">Spring</option>
+            <option value="Summer">Summer</option>
+            <option value="Fall">Fall</option>
+        </select>
+        <p class="subhead"><span class="star">*</span>Course Designation: </p>
+        <input id="CourseDes" type="text" maxlength="5" autocomplete="off" placeholder="EX: CS, ENGL, etc." required/>
+        <p class="subhead"><span class="star">*</span>Course Number: </p>
+        <input id="CourseNum" type="text" maxlength="5" autocomplete="off" placeholder="EX: 1410, 3510, etc." required/>
+        <!--Lots of options here. Two routes, fixed input using a drop down box, or text type input restricted to 5 characters-->
+        <p class="subhead"><span class="star">*</span>Section: </p>
+        <input id="Section" type="text" maxlength="5" autocomplete="off" placeholder="EX: 801X, 601B, etc." required/>
+        <!--See above comment-->
+        <p class="subhead"><span class="star">*</span>Book Edition</p>
+        <input id="BEdition" type="text" maxlength="2" autocomplete="off" placeholder="EX: 1, 9, 13, etc." required/>
+        <!--This could be fixed as a numeric input less than 99. Unless someone has heard of the 100th edition of something....-->
+        <p class="subhead"><span class="star">*</span>Book Title: </p>
+        <input id="BTitle" type="text" maxlength="50" autocomplete="off" placeholder="EX: Advanced Physics" required/>
+        <!--Largest injection point: Filtering and what not will be required. Watch the inputs!-->
+        <p class="subhead"><span class="star">*</span>Book Author: </p>
+        <input id="BAuthor" type="text" maxlength="30" autocomplete="off" placeholder="EX: John Doe" required/>
+        <!--ISBN-->
+        <p class="subhead"><span class="star">*</span>Book ISBN: </p>
+        <input id="BISBN" type="text" maxlength="25" autocomplete="off" placeholder="EX: 187621094234" required/>
+        <!--Similar to above-->
+        <p class="subhead"><span class="star">*</span>Requested Format</p>
+        <!--List box: Fixed options-->
+        <select id="Format">
+            <option value="PDF">PDF</option>
+            <option value="MP3">MP3</option>
+            <option value="WORD">Word Document</option>
+            <option value="BRAILE">Braile</option>
+            <option value="DAISY">Daisy</option>
+        </select>
+        <br />
+        <!--The button for submit this will call the nessecary checks and validation using Java-->
+        <button onclick="MadCODE()" class="button">Submit</button>
+        </form>
+    </div>
+</body>
+</html>

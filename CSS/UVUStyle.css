@@ -1,0 +1,48 @@
+﻿body {
+    /* height: 1111vw; */
+    background-color: #FFFFFF;
+    overflow-x:hidden;
+}
+.subhead{
+    color:#000000;
+    font-size:14pt;
+}
+.header{
+    padding:2%;
+    background-color:#D0D0CE;
+    position:fixed;
+    top:0;
+    height:8vw;
+    width:101%;
+    display: inline;
+    margin: -1%;
+    overflow-x:hidden;
+    font-family: Tahoma, Verdana, Geneva, Tahoma, sans-serif;
+}
+.form{
+    position:inherit;
+    margin-left: 20vw;
+    padding-right: 33%;
+    margin-top:14vw;
+    font-family: Tahoma, Verdana, Geneva, Tahoma, sans-serif;
+}
+.logo{
+    width: 10vw;
+    height: 10vw;
+    padding-bottom: 3vw;
+    float: left;
+}
+.button{
+    margin: 4vw;
+}
+.star{
+    font-size:14pt;
+    color:#E15230;
+    font-weight:bold;
+}
+h2{
+    display: inline;
+    margin-bottom:15vw;
+    float: left;
+    font-size: 4vw;
+}
