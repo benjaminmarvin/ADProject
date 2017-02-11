@@ -1,12 +1,14 @@
 ﻿body {
-    /* height: 1111vw; */
+    /* height: 1111vw; USED FOR TESTING SCROLL*/
     background-color: #FFFFFF;
     overflow-x:hidden;
 }
+/*Code for CSS of form box headers*/
 .subhead{
     color:#000000;
     font-size:14pt;
 }
+/*Code for header*/
 .header{
     padding:2%;
     background-color:#D0D0CE;
@@ -19,6 +21,7 @@
     overflow-x:hidden;
     font-family: Tahoma, Verdana, Geneva, Tahoma, sans-serif;
 }
+/*Code for body below header*/
 .form{
     position:inherit;
     margin-left: 20vw;
@@ -26,6 +29,7 @@
     margin-top:14vw;
     font-family: Tahoma, Verdana, Geneva, Tahoma, sans-serif;
 }
+/*UVU logo code*/
 .logo{
     width: 10vw;
     height: 10vw;
@@ -35,11 +39,21 @@
 .button{
     margin: 4vw;
 }
+/*Code for the red required star*/
 .star{
     font-size:14pt;
     color:#E15230;
     font-weight:bold;
 }
+/*Unused currently*/
+.linkText {
+    color: #275d38;
+    float: right;
+    margin-right: 6vw;
+    text-decoration:none;
+    margin-top: 2vw;
+}
+/*Code for h2 scalability*/
 h2{
     display: inline;
     margin-bottom:15vw;

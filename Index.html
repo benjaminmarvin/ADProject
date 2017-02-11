@@ -11,13 +11,16 @@
     <!--Important note:: The header and the body of the page will rest inside of another myuvu navigation page. In theory.-->
     <!--Omiting any standard UVU navigation as a result of the above comment-->
     <div class="header">
-       <a href="http://www.uvu.edu"><img src="Images/uvusquare.png" class="logo" /></a> 
+       <a href="http://www.uvu.edu"><img src="Images/uvusquare.png" class="logo" alt="UVU Logo"/></a> 
         <h2>Accessibilities Department</h2>
+        
     </div>
     <!--Sticking with standard UVU layout the rest of the content will be nested in one section below the header-->
     <div class="form">
         <form>
         <h3>All fields are required</h3>
+        <p class="subhead"><span class="star">*</span>UVU ID: </p>
+        <input id="UVUId" type="text" maxlength="8" autocomplete="off" placeholder="EX: 12312312" required />
         <p class="subhead"><span class="star">*</span>First Name: </p>
         <input id="FName" type="text" maxlength="30" autocomplete="off" placeholder="EX: John" required/>
         <!--Input type text: max character of 30-->
