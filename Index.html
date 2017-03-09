@@ -5,6 +5,8 @@
 	<meta charset="utf-8" />
     <meta name="viewport" content="width=700" />
     <link rel="stylesheet" type="text/css" href="CSS/UVUStyle.css">
+    <script src="Java/DataControl.js"></script>
+    <script src="Java/jquery-3.1.1.min.js"></script>
 </head>
 <body>
     <!--The header contains the logo and navigation menu-->
@@ -65,7 +67,7 @@
         </select>
         <br />
         <!--The button for submit this will call the nessecary checks and validation using Java-->
-        <button onclick="MadCODE()" class="button">Submit</button>
+        <button onclick="CSVAJAX('CSVProtectedFolder/CSVTest.xlsx')" class="button">Submit</button>
         </form>
     </div>
 </body>
